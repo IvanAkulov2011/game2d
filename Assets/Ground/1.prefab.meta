@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Ground/1.prefab.meta
 guid: b7b91869c1feb2e49966056a882e3fb9
 PrefabImporter:
+========
+guid: 47a39d64886dfa44e957b1638f6b9ecb
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> 9daea07356acabd1f93b63b11fb6168344a42632:Assets/Background.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
