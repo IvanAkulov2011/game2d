@@ -38,6 +38,10 @@ public class fireball : MonoBehaviour
         hit = true;
         boxCollider.enabled = false;
         anim.SetTrigger("explode");
+        if (collision.CompareTag("ground"))
+        {
+            Deactivate();
+        }
 
                   if (collision.CompareTag("enemy"))
             {
