@@ -40,6 +40,7 @@ public class Health : MonoBehaviour
                 anim.SetTrigger("die");
                 GetComponent<Playermovment>().enabled= false;
                 GetComponent<Playerattack>().enabled= false;
+                GetComponent<Rigidbody2D>().bodyType= RigidbodyType2D.Static;
                 dead = true;
                
             }

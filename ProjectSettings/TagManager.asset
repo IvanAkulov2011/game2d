@@ -8,6 +8,7 @@ TagManager:
   - wall
   - fireball
   - enemy
+  - saw
   layers:
   - Default
   - TransparentFX
